@@ -1,8 +1,7 @@
 # KRICT-ChemDX-Hackathon
 
-Main model
-1. Merge thermoelectric and solar cell data via compositional descriptors
-2. Train multi-task model to output PCE, ZT and electrical conductivity
+Main contribution
+1. Multi-task model to predict different material properties of inorganics
 
 Other functionalities
 1. ZT-Temp curve extrapolation (todo: consider a dropoff point temperature)
