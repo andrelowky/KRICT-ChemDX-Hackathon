@@ -28,3 +28,19 @@ We used a structure-agnostic model CrabNet algorithm for adjusting the property 
 Figure 1. Generative design workflow to perform property prediction and a physicsinformed ZT-T curve fitting.
 
 ## Results
+
+## Installation
+Create a new Conda environment and install dependencies with requirements.txt.
+Clone or download the directory.
+
+## Using our work
+The main dataset is in estm.xlsx.
+Start by training the Crabnet model following crabnet.ipynb, or you can use our trained model pretrained_crabnet.pth.
+![image](https://github.com/user-attachments/assets/88f9f0c0-9986-4731-b63d-604790a15bd2)
+
+The zt-t curves.ipynb notebook shows the implementation of the ZT curve workflow, meant to convert the predictions from Crabnet into a complete curve.
+It follows the equation: ![image](https://github.com/user-attachments/assets/6ccfaab3-27b4-4647-903e-7f2f7faecad9)
+
+The elmd_plotting.ipynb notebook provides a means of visualizing all structures in the dataset. The end goal is to select compositions within 'columns' of materials to be predicted by the Crabnet model for further experimental validation.
+
+
